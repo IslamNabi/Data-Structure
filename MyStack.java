@@ -1,4 +1,4 @@
-
+//Stack
 class MyStack 
 {
 	private int[] arr;
@@ -32,16 +32,4 @@ class MyStack
 		}
 	}
 
-	//main method
-	public static void main (String arg[]){
-		MyStack stack = new MyStack(10);
-		stack.push(1);
-		stack.push(2);
-		stack.push(3);
-		stack.push(4);
-		int poped = stack.pop();
-		System.out.println(poped+" is Poped from Stack!");
-		int poped2 = stack.pop();
-		System.out.println(poped2+" is Poped from Stack!");
-	}
 }
